@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScoreCount</string>
+    <string name="button_one_txt">TEAM 1</string>
+    <string name="button_two_txt">TEAM 2</string>
+    <string name="button_replay_txt">Play Again?</string>
+    <string name="button_shareAct_text">Share Your Win!</string>
+    <string name="button_makeCall_text">Phone a Friend!</string>
+    <string name="button_sendMsg_txt">Send a Message!</string>
+</resources>

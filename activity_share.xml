@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+
+    <EditText
+        android:id="@+id/editText_getPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_sendMsg"
+        android:layout_alignParentStart="true"
+        android:hint="Enter a phone number."
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button_makeCall"
+        android:layout_toRightOf="@id/editText_getPhoneNum"
+        android:layout_centerVertical="true"
+        android:layout_above="@id/button_sendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_makeCall_text"
+        />
+
+    <Button
+        android:id="@+id/button_sendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/button_makeCall"
+        android:layout_above="@id/button_searchBB"
+        android:text="@string/button_sendMsg_txt"
+        />
+
+    <Button
+        android:id="@+id/button_searchBB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/button_makeCall"
+        android:layout_toRightOf="@id/editText_getPhoneNum"
+        android:layout_centerVertical="true"
+        android:text="Nearby Basketball!"
+        />
+
+
+</RelativeLayout>

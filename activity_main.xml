@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bb_image"
+    >
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/norm_text"
+        android:textStyle="bold"
+        android:text="@string/button_one_txt"
+        android:padding="@dimen/norm_padding"
+        />
+
+    <TextView
+        android:id="@+id/teamOne_scoreDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_one"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/score_text"
+        android:textColor="@android:color/holo_green_light"
+        />
+
+    <TextView
+        android:id="@+id/teamTwo_scoreDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_two"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/score_text"
+        android:textColor="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/norm_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/norm_text"
+        android:textStyle="bold"
+        android:text="@string/button_two_txt"
+        />
+
+</RelativeLayout>
