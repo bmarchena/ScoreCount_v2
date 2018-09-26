@@ -1,4 +1,4 @@
-# ScoreCount_ImplicitIntent
+# ScoreCount_v2
 
 
 Two team score counter using two activities and both explicit and implicit intents.
